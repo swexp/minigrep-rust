@@ -49,6 +49,6 @@ mod tests {
 }
 
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    vec![]
-    //vec!["safe, fast, productive."]
+    //vec![]
+    vec!["safe, fast, productive."]
 }
